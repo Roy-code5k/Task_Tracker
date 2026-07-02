@@ -1,0 +1,27 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Environment variables (Crucial for security!)
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+
+# Production builds
+dist/
+**/dist/s
+build/
+**/build/
+
+# System / IDE configuration files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
